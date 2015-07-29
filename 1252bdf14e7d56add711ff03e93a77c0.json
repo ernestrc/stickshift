@@ -1,1 +1,0 @@
-{"name":"clientconnectionsummary test","query":"select dt, count(*) from clientconnectionsummary where dt > '2015-07-21' group by dt;"}
