@@ -1,13 +1,13 @@
 var Stickshift = require('./src/index.js');
-var cookie = require('cookie');
-
+var access = require('./access-token.json');
+ 
 Stickshift(
   document.getElementById('page'),
   {
-    endpoint: 'http://localhost:3000/query',
+    endpoint: 'http://localhost:3000/api/stickshift',
     branch: 'db',
-    username: 'mapbox',
-    access_token: cookie.parse(document.cookie).access_token,
+    username: 'ernestrc',
+    access_token: access.token,
     mapboxToken: 'pk.eyJ1IjoidG1jdyIsImEiOiJIZmRUQjRBIn0.lRARalfaGHnPdRcc-7QZYQ',
     repo: 'stickshift'
   });

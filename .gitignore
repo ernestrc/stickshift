@@ -2,3 +2,6 @@ config.json
 bundle.js
 site.private.js
 .bundle.js
+node_modules
+npm-debug.log
+access-token.json

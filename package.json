@@ -21,6 +21,7 @@
     "flux": "^2.0.1",
     "hubdb": "^1.1.1",
     "object-assign": "^2.0.0",
+    "presto-client": "^0.1.0",
     "react": "^0.12.2",
     "react-code-mirror": "^3.0.3",
     "react-document-title": "^1.0.2",
@@ -50,7 +51,7 @@
   },
   "scripts": {
     "develop": "watchify -d site.js -o bundle.js & st -nc",
-    "start": "watchify -d site.js -o bundle.js & node example_server.js",
-    "build-module": "browserify -s stickshift src/index.js > stickshift.js"
+    "start": "watchify -d site.js -o bundle.js & node presto_example.js",
+    "build-module": "browserify -s stickshift site.js > bundle.js"
   }
 }

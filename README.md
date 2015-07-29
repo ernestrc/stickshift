@@ -1,3 +1,17 @@
+# stickshift fork for [Presto](https://github.com/facebook/presto)
+First create a `config.json` with [your presto configuration](https://github.com/tagomoris/presto-client-node#new-clientopts):
+
+```json
+{
+    "host": "my.coordinator-hostname.com",
+    "port": 9099,
+    "catalog": "hive",
+    "schema": "default"
+}
+```
+
+Then start via `npm install & npm start`
+
 # stickshift
 
 A clean & modern data interface: SQL queries into JSON, CSV, and charts,
