@@ -101,8 +101,9 @@ var Rows = React.createClass({
               onChange={this.setQuery} />
           </div>
           <a
+            id='run-button'
             onClick={this.runQuery}
-            className='col12 unround fill-green button'>Query</a>
+            className='col12 unround fill-green button'>Run</a>
         </div>
         <div className='col12 pad2x'>
           <div ref='tablesizer'>

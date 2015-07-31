@@ -1,1 +1,24 @@
 a { cursor: pointer; }
+
+#run-button{
+    text-align:center;
+    color:#fff;
+    text-decoration: none !important;
+    display:inline-block;
+    height:40px;
+    margin:0px;
+    padding:10px;
+    position:relative;
+    border:none;
+    cursor:pointer;
+    border-radius:3px;
+    white-space:nowrap;
+    /* Protects button metrics in .prose context */
+    font-family:'Open Sans Bold', sans-serif;
+    line-height:20px;
+    font-size:12px;
+    -webkit-appearance:none;
+
+    /* The button element needs to be forced this */
+    -webkit-font-smoothing:antialiased;
+}
